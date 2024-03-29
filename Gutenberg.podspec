@@ -1,7 +1,6 @@
-gutenbergPackage = JSON.parse(File.read(File.join(File.expand_path('../..'), 'package.json')))
 package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 # Use the same RN version that the JS tools use
-react_native_version = gutenbergPackage['devDependencies']['react-native']
+react_native_version = package['devDependencies']['react-native']
 # Extract the tagged version if package.json points to a tag
 react_native_version = react_native_version.split("#v").last if react_native_version.include? "#v"
 

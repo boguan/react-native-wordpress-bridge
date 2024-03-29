@@ -1,6 +1,6 @@
 {
 	"name": "react-native-wordpress-bridge",
-	"version": "1.116.4",
+	"version": "1.116.5",
 	"description": "Native bridge library used to integrate the block editor into a native App.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -19,7 +19,7 @@
 	"main": "index.js",
 	"react-native": "index",
 	"devDependencies": {
-    "react-native": "0.73.6"
+    "react-native": "0.73.3"
   },
 	"peerDependencies": {
 		"react-native": "*",
