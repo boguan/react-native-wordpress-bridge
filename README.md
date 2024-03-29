@@ -2,13 +2,9 @@
 
 ## Getting started
 
-This package is not yet published to npm. You can use it locally:
-
-`$ npm install ./gutenberg/packages/react-native-bridge --save`
-
 ### Mostly automatic installation
 
-`$ react-native link @wordpress/react-native-bridge`
+`$ react-native link react-native-wordpress-bridge`
 
 ### Manual installation
 
